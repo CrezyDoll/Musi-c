@@ -87,7 +87,7 @@ async def gen_thumb(videoid, user_id):
         images = random.choice(thumbs)
         border = random.choice(colors)
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        bg = Image.open(f"SankiMusic/resource/{images}.png")
+        bg = Image.open(f"SankiMusic/resource/anonx.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
@@ -130,7 +130,7 @@ async def gen_thumb(videoid, user_id):
         try:
             draw.text(
                 (450, 35),
-                f"STARTED PLAYING",
+                f"RED-WINE PLAYING",
                 fill="white",
                 stroke_width=1,
                 stroke_fill="white",
@@ -229,7 +229,7 @@ async def que_thumb(videoid, user_id):
         images = random.choice(thumbs)
         border = random.choice(colors)
         youtube = Image.open(f"cache/thumb{videoid}.png")
-        bg = Image.open(f"SankiMusic/resource/{images}.png")
+        bg = Image.open(f"SankiMusic/resource/anonx.png")
         image1 = changeImageSize(1280, 720, youtube)
         image2 = image1.convert("RGBA")
         background = image2.filter(filter=ImageFilter.BoxBlur(30))
