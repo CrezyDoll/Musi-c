@@ -7,8 +7,8 @@
         "telegram bot",
         "pyrogram"
     ],
-    "repository": "https://github.com/XdityaHalder/SankiMusic",
-    "success_url": "https://t.me/AdityaDiscus",
+    "repository": "https://github.com/CrezyDoll/Red-Wine",
+    "success_url": "https://t.me/Red_Wine_Op",
     "env": {
         "API_ID": {
             "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
