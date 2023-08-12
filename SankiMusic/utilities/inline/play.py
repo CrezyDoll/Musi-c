@@ -66,7 +66,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Red_Wine_Op",
             )
         ],
     ]
@@ -130,7 +130,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/Red_Wine_Op",
             )
         ],
     ]
