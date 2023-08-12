@@ -24,7 +24,7 @@ def setting_markup(_):
         ],
         [
             InlineKeyboardButton(
-                text="• sᴜᴩᴩᴏʀᴛ •", url=f"{SUPPORT_GROUP}",
+                text="sᴜᴩᴩᴏʀᴛ", url=f"{SUPPORT_GROUP}",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
@@ -43,7 +43,7 @@ def audio_quality_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["ST_B_8"].format("➻")
+                text=_["ST_B_8"].format("✅")
                 if low == True
                 else _["ST_B_8"].format(""),
                 callback_data="LQA",
@@ -51,7 +51,7 @@ def audio_quality_markup(
         ],
         [
             InlineKeyboardButton(
-                text=_["ST_B_9"].format("➻")
+                text=_["ST_B_9"].format("✅")
                 if medium == True
                 else _["ST_B_9"].format(""),
                 callback_data="MQA",
@@ -59,7 +59,7 @@ def audio_quality_markup(
         ],
         [
             InlineKeyboardButton(
-                text=_["ST_B_10"].format("➻")
+                text=_["ST_B_10"].format("✅")
                 if high == True
                 else _["ST_B_10"].format(""),
                 callback_data="HQA",
@@ -87,7 +87,7 @@ def video_quality_markup(
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["ST_B_11"].format("➻")
+                text=_["ST_B_11"].format("✅")
                 if low == True
                 else _["ST_B_11"].format(""),
                 callback_data="LQV",
@@ -95,7 +95,7 @@ def video_quality_markup(
         ],
         [
             InlineKeyboardButton(
-                text=_["ST_B_12"].format("➻")
+                text=_["ST_B_12"].format("✅")
                 if medium == True
                 else _["ST_B_12"].format(""),
                 callback_data="MQV",
@@ -103,7 +103,7 @@ def video_quality_markup(
         ],
         [
             InlineKeyboardButton(
-                text=_["ST_B_13"].format("➻")
+                text=_["ST_B_13"].format("✅")
                 if high == True
                 else _["ST_B_13"].format(""),
                 callback_data="HQV",
