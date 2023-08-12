@@ -39,6 +39,11 @@
             "description": "𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑼𝒔𝒆𝒓 𝑰𝑫 𝑶𝒇 𝑩𝒐𝒕 𝑶𝒘𝒏𝒆𝒓",
             "required": true
         },
+        "UPSTREAM_REPO": {
+            "description": "Your Repository Link",
+            "required": true
+            "value": "https://github.com/CrezyDoll/Red-Wine"
+        },
         "LOG_GROUP_ID": {
             "description": "𝑩𝒐𝒕 𝑳𝒐𝒈𝒈𝒆𝒓 𝑮𝒓𝒐𝒖𝒑 𝑰𝑫",
             "required": true
@@ -46,7 +51,7 @@
         "MUSIC_BOT_NAME": {
             "description": "𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑵𝒂𝒎𝒆 (𝑼𝒔𝒆 𝑵𝒐𝒓𝒎𝒂𝒍 𝑭𝒐𝒏𝒕)",
             "required": true,
-            "value": "Aditya Player"
+            "value": "Wine Music"
         },
         "SUPPORT_CHANNEL": {
             "description": "𝒀𝒐𝒖𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑳𝒊𝒏𝒌 𝑰𝒇 𝒀𝒐𝒖 𝑯𝒂𝒗𝒆 𝑬𝒍𝒔𝒆 𝑳𝒆𝒂𝒗𝒆 𝑰𝒕 𝑨𝒔 𝑫𝒆𝒇𝒂𝒖𝒍𝒕",
