@@ -16,7 +16,7 @@ def help_pannel(_, START: Union[bool, int] = None):
         ),
         InlineKeyboardButton(
             text="ᴍᴏʀᴇ",
-            url=f"t.me/Backup_Bosss",
+            url=f"t.me/Red_Wine_Op",
         ),
         InlineKeyboardButton(
             text="ᴄʟᴏsᴇ", callback_data=f"close"
@@ -93,7 +93,7 @@ def help_back_markup(_):
             [
                 InlineKeyboardButton(
                     # text=_["BACK_BUTTON"],
-                    text="≽ ʙᴀᴄᴋ ≼",
+                    text="ʙᴀᴄᴋ",
                     callback_data=f"settings_back_helper",
                 ),
                 InlineKeyboardButton(
