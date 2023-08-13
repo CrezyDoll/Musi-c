@@ -7,7 +7,7 @@
         "telegram bot",
         "pyrogram"
     ],
-    "repository": "https://github.com/CrezyDoll/Red-Wine",
+    "repository": "https://github.com/OfficialSangram/Red-Wine",
     "success_url": "https://t.me/Red_Wine_Op",
     "env": {
         "API_ID": {
