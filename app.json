@@ -7,7 +7,7 @@
         "telegram bot",
         "pyrogram"
     ],
-    "repository": "https://github.com/OfficialSangram/Red-Wine",
+    "repository": "https://github.com/CrezyDoll/Musi-c",
     "success_url": "https://t.me/Red_Wine_Op",
     "env": {
         "API_ID": {
@@ -42,7 +42,7 @@
         "UPSTREAM_REPO": {
             "description": "Your Repository Link",
             "required": true
-            "value": "https://github.com/OfficialSangram/Red-Wine"
+            "value": "https://github.com/CrezyDoll/Musi-c"
         },
         "LOG_GROUP_ID": {
             "description": "𝑩𝒐𝒕 𝑳𝒐𝒈𝒈𝒆𝒓 𝑮𝒓𝒐𝒖𝒑 𝑰𝑫",
