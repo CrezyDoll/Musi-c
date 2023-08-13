@@ -3,7 +3,7 @@ from pyrogram.types import Message
 
 import io
 import os
-import config
+import SankiMusic.utilities.config import config
 import random
 import requests
 from SankiMusic import bot
