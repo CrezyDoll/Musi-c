@@ -31,7 +31,7 @@ async def logo(_, message):
      user = message.from_user
      reply = message.reply_to_message
      if len(message.text.split()) <2: return await message.reply("`Gimme Any logo Name!`")
-     msg = await message.reply("`logo Processing...`")   
+     msg = await message.reply("**ᴘʀᴏᴄᴇssɪɴɢ ʟᴏɢᴏ......**")   
      if "graph.org" in message.text:
          link = message.text.split("//")[1]
          text = message.text.split(message.text.split()[0])[1].split("https")[0]
@@ -59,7 +59,7 @@ async def logo(_, message):
      draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
      fname = "images/logo.png"
      img.save(fname, "png")
-     await msg.edit("`logo done!`")
+     await msg.edit("**ʟᴏɢᴏ ᴅᴏɴᴇ ✅**")
      await message.reply_photo(fname, caption=f"**Req by {user.mention}**")
      os.remove(fname)
      return await msg.delete()
