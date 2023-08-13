@@ -6,7 +6,7 @@ import os
 import config
 import random
 import requests
-from AnonX import app
+from SankiMusic import bot
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -25,7 +25,7 @@ LOGO_LINKS = [
 
 
 
-@app.on_message(filters.command("logo"))
+@bot.on_message(filters.command("logo"))
 async def logo(_, message):
      chat = message.chat
      user = message.from_user
