@@ -1,4 +1,4 @@
-import config
+from SankiMusic.utilities import config
 
 from SankiMusic import bot
 from pyrogram import filters
