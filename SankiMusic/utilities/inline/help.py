@@ -11,7 +11,7 @@ def help_pannel(_, START: Union[bool, int] = None):
     second = [
         InlineKeyboardButton(
             # text=_["BACK_BUTTON"],
-            text="ʜᴏᴍᴇ",
+            text="ʙᴀᴄᴋ",
             callback_data=f"settingsback_helper",
         ),
         InlineKeyboardButton(
