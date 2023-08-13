@@ -97,6 +97,7 @@ def help_pannel(_, START: Union[bool, int] = None):
                     text="sᴏɴɢ",
                     callback_data="help_callback hb16",
                 ),
+            ],
             mark,
         ]
     )
