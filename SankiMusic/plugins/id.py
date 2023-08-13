@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from ZedzeX import app
+from SankiMusic import bot
 
 def get_id(msg: Message):
     if msg.media:
@@ -26,7 +26,7 @@ def get_id(msg: Message):
                 return obj
 
 
-@app.on_message(filters.command(["id", "stickerid", "stkid", "stckrid"]))
+@bot.on_message(filters.command(["id"]))
 async def showid(_, message: Message):
     chat_type = message.chat.type
 
