@@ -15,11 +15,8 @@ def help_pannel(_, START: Union[bool, int] = None):
             callback_data=f"settingsback_helper",
         ),
         InlineKeyboardButton(
-            text="ᴍᴏʀᴇ",
+            text="sᴜᴘᴘᴏʀᴛ",
             url=f"t.me/Red_Wine_Op",
-        ),
-        InlineKeyboardButton(
-            text="ᴄʟᴏsᴇ", callback_data=f"close"
         ),
     ]
     mark = second if START else first
@@ -109,7 +106,7 @@ def private_help_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="≽ ʙᴀᴄᴋ ≼",
+                text="ʙᴀᴄᴋ",
                 callback_data="settings_back_helper",
             ),
         ],
