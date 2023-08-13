@@ -2,6 +2,7 @@ import asyncio
 import importlib
 import sys
 
+from pyrogram import enums
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
