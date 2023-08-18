@@ -64,7 +64,6 @@
             "value": "https://t.me/Red_Wine_Op"
         }
     },
-    "addons": [],
     "buildpacks": [
         {
             "url": "heroku/python"
