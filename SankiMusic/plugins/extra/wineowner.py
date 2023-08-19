@@ -14,6 +14,5 @@ async def on_new_chat_members(client: Client, message: Message):
         added_by = message.from_user.mention if message.from_user else "wine User"
         title = message.chat.title
         chat_id = message.chat.id
-        chat_link = message.chat.link
-        wine = f"**<u>ɴᴇᴡ ɢʀᴏᴜᴘ</u>**\n\n**ɢʀᴏᴜᴘ ɪᴅ:** `{chat_id}` \n**ɢʀᴏᴜᴘ ɴᴀᴍᴇ:** {title} \n**ᴄʜᴀᴛ ʟɪɴᴋ:** {chat_link} \n\n**ᴀᴅᴅᴇᴅ ʙʏ**: {added_by}"
+        wine = f"**<u>ɴᴇᴡ ɢʀᴏᴜᴘ</u>**\n\n**ɢʀᴏᴜᴘ ɪᴅ:** `{chat_id}` \n**ɢʀᴏᴜᴘ ɴᴀᴍᴇ:** {title} \n**ᴀᴅᴅᴇᴅ ʙʏ**: {added_by} \n\n**ᴘᴏᴡᴇʀᴇᴅ ʙʏ @Kalakar_Sangram**"
         await new_message(SUPPORT_CHAT_ID, wine)
