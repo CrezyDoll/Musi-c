@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from SankiMusic.utilities.config import LOG_GROUP_ID
+from SankiMusic.utilities.config import SUPPORT_CHAT
 from SankiMusic import bot
 
 
@@ -14,5 +14,6 @@ async def on_new_chat_members(client: Client, message: Message):
         added_by = message.from_user.mention if message.from_user else "wine User"
         title = message.chat.title
         chat_id = message.chat.id
-        wine = f"**ɴᴇᴡ ɢʀᴏᴜᴘ**\n\n**ɢʀᴏᴜᴘ ɪᴅ**: {chat_id} \n**ɢʀᴏᴜᴘ ɴᴀᴍᴇ**: {title} \n**ᴀᴅᴅᴇᴅ ʙʏ**: {added_by}"
-        await new_message(LOG_GROUP_ID, wine)
+        chat_link = message.chat.link
+        wine = f"**<u>ɴᴇᴡ ɢʀᴏᴜᴘ</u>**\n\n**ɢʀᴏᴜᴘ ɪᴅ:** `{chat_id}` \n**ɢʀᴏᴜᴘ ɴᴀᴍᴇ:** {title} \n**ᴄʜᴀᴛ ʟɪɴᴋ:** {chat_link} \n\n**ᴀᴅᴅᴇᴅ ʙʏ**: {added_by}"
+        await new_message(SUPPORT_CHAT, wine)
