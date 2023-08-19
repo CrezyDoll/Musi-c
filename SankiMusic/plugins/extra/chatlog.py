@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from config import SUPPORT_CHAT_ID
+from SankiMusic.utilities.config import SUPPORT_CHAT_ID
 from SankiMusic import bot
 
 async def new_message(chat_id: int, message: str):
